@@ -105,9 +105,9 @@ public class Main {
         ServicioBiblioteca biblioteca = new ServicioBiblioteca();
         
         // Agregar al menos 3 libros
-        biblioteca.agregarLibro(new Libro("1984", "George Orwell", "12345"));
-        biblioteca.agregarLibro(new Libro("El Principito", "Antoine de Saint-Exupéry", "67890"));
-        biblioteca.agregarLibro(new Libro("Cien Años de Soledad", "Gabriel García Márquez", "54321"));
+        biblioteca.agregarLibro(new Libro("Harry Potter La Piedra Filosofal", "J. K. Rowling", "1349"));
+        biblioteca.agregarLibro(new Libro("Grandes esperanzas", "Charles Dickens", "88457"));
+        biblioteca.agregarLibro(new Libro("Cien Años de Soledad", "Gabriel García Márquez", "34356"));
         
         // Imprimir catálogo actual
         System.out.println("\nCatálogo actual:");
